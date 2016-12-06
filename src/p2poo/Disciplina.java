@@ -2,6 +2,19 @@
 package p2poo;
 
 public class Disciplina {
-    private int id;
-    private String nome;    
+    private String nome;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Disciplina{" + "nome=" + nome + '}';
+    }
+    
 }

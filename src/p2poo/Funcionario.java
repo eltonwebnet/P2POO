@@ -1,9 +1,9 @@
-
 package p2poo;
 
-public class Funcionario {
+public class Funcionario extends Pessoa{
+
     private String matricula;
-    private String nome;
+    private String cargo;
 
     public String getMatricula() {
         return matricula;
@@ -13,13 +13,19 @@ public class Funcionario {
         this.matricula = matricula;
     }
 
-    public String getNome() {
-        return nome;
+    public String getCargo() {
+        return cargo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" + "matricula=" + matricula + ", cargo=" + cargo + '}';
     }
     
     
+
 }

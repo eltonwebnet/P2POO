@@ -9,7 +9,7 @@ package p2poo;
  *
  * @author elton
  */
-public class P2POO {
+public class Main {
 
     /**
      * @param args the command line arguments
